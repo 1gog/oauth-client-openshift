@@ -1,8 +1,8 @@
 class RootController < ApplicationController
 
 
-def root
-    
+def main
+    render :main
 end
 
 end
