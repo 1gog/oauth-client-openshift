@@ -2,7 +2,7 @@ class RootController < ApplicationController
 
 
 def main
-    render :main
+    render "main"
 end
 
 end
