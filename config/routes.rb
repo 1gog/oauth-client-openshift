@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
 root to: 'root#main'
 
-get /admin to "admin#admin"
+get '/admin', to: 'admin#admin'
+#get '/patients/:id', to: 'patients#show'
 end
